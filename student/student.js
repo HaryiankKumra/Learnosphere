@@ -3,16 +3,20 @@ function validateCode() {
     const classCode = document.getElementById("classCode").value.trim();
     const errorMsg = document.getElementById("errorMsg");
 
-    // Sample correct class codes (replace with actual data)
-    const validCodes = ["ABC123", "LEARN42", "STUDENT01"];
+    // Class code to URL mapping
+    const codeToLink = {
+        "ABC123": "https://your-learning-platform.com/dashboard1",
+        "LEARN42": "https://your-learning-platform.com/dashboard2",
+        "STUDENT01": "https://your-learning-platform.com/dashboard3"
+    };
 
     if (name === "" || classCode === "") {
         errorMsg.textContent = "Please enter both Name and Class Code.";
         return;
     }
 
-    if (validCodes.includes(classCode)) {
-        window.location.href = "https://your-learning-platform.com/dashboard"; // Replace with actual link
+    if (classCode in codeToLink) {
+        window.location.href = codeToLink[classCode]; // Redirect to the corresponding URL
     } else {
         errorMsg.textContent = "Invalid Class Code. Please try again.";
     }
