@@ -43,7 +43,8 @@ def signup():
         if users_collection.find_one({'email': email}):
             flash('Email already exists', 'error')
         else:
-            hashed_password = generate_password_hash(password, method='sha256')
+            # Use a valid hashing method like 'pbkdf2:sha256'
+            hashed_password = generate_password_hash(password, method='pbkdf2:sha256')
             users_collection.insert_one({
                 'email': email,
                 'password': hashed_password,
