@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the primary purpose of the Memorandum of Understanding (MoU) between ISTE Thapar Chapter and Kwikpic AI Solutions?",
+        "options": [
+            "To establish a mutually beneficial working relationship.",
+            "To secure funding for ISTE Thapar Chapter events.",
+            "To promote Kwikpic AI Solutions exclusively.",
+            "To share photographic equipment."
+        ],
+        "correct_answer": "To establish a mutually beneficial working relationship."
+    },
+    {
+        "question": "What financial contribution will Kwikpic AI Solutions make to ISTE Thapar Chapter, contingent upon meeting specific conditions?",
+        "options": [
+            "Rs. 10,000 + Rs. 28,000 (Business Essential Account)",
+            "Rs. 38,000",
+            "Rs. 30,000",
+            "Rs. 28,000"
+        ],
+        "correct_answer": "Rs. 10,000 + Rs. 28,000 (Business Essential Account)"
+    },
+    {
+        "question": "What is one of ISTE Thapar Chapter's key deliverables as outlined in the MoU?",
+        "options": [
+            "Using Kwikpic as the exclusive photo-sharing platform for the Colloquium.",
+            "Providing Kwikpic with a list of all attendees' personal information.",
+            "Paying Kwikpic an additional fee for exceeding the minimum registration number.",
+            "Designing marketing materials for Kwikpic."
+        ],
+        "correct_answer": "Using Kwikpic as the exclusive photo-sharing platform for the Colloquium."
+    },
+    {
+        "question": "When will Kwikpic AI Solutions transfer Rs. 3000 to ISTE Thapar Chapter?",
+        "options": [
+            "5 days prior to the main event.",
+            "After the event concludes.",
+            "Upon completion of all deliverables.",
+            "At the signing of the MoU."
+        ],
+        "correct_answer": "5 days prior to the main event."
+    },
+    {
+        "question": "According to the MoU, under what circumstances would Kwikpic AI Solutions initiate a full refund to ISTE Thapar Chapter?",
+        "options": [
+            "If ISTE Thapar Chapter fails to deliver the agreed-upon number of registrations or deliverables, or if the event is cancelled due to unforeseen circumstances like COVID-19.",
+            "If Kwikpic experiences technical difficulties.",
+            "If ISTE Thapar Chapter uses a different photo-sharing platform.",
+            "If the number of DSLR photos uploaded is less than the agreed-upon number."
+        ],
+        "correct_answer": "If ISTE Thapar Chapter fails to deliver the agreed-upon number of registrations or deliverables, or if the event is cancelled due to unforeseen circumstances like COVID-19."
+    }
+]
