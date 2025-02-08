@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible PDF Reader</title>
+    <link rel="stylesheet" href="./css/speech.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Left: PDF Viewer -->
+        <div class="pdf-container">
+            <input type="file" id="fileInput" accept=".pdf">
+            <canvas id="pdfCanvas"></canvas>
+        </div>
+
+        <!-- Right: OCR Extracted Text & Controls -->
+        <div class="text-container">
+            <h2>Extracted Text</h2>
+            <div id="ocrText" class="text-content"></div>
+            <div class="controls">
+                <button id="playPauseBtn">🔊 Play</button>
+                <button id="stopBtn">⏹ Stop</button>
+                <label>Speed:
+                    <input type="range" id="speedControl" min="0.5" max="2" step="0.1" value="1">
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/speech.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/4.0.2/tesseract.min.js"></script>
+</body>
+</html>
