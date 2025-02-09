@@ -5,9 +5,9 @@ function validateCode() {
 
     // Class code to URL mapping
     const codeToLink = {
-        "ABC123": "https://your-learning-platform.com/dashboard1",
-        "LEARN42": "https://your-learning-platform.com/dashboard2",
-        "STUDENT01": "https://your-learning-platform.com/dashboard3"
+        "ABC123": "https://tower-game-umber.vercel.app/",
+        "LEARN42": "https://runner-build.vercel.app/",
+        "STUDENT01": "https://bubble-web-iota.vercel.app/"
     };
 
     if (name === "" || classCode === "") {
